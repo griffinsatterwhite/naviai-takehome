@@ -12,7 +12,7 @@ This web application allows you to interact with the latest models from OpenAI a
 
 Before running the application, ensure you have the following installed:
 
-- [Node.js](https://nodejs.org/) (which includes npm)
+- [Node.js](https://nodejs.org/)
 - Python 3.13.1
 
 ## Setup
@@ -37,7 +37,7 @@ To set up the application on your local machine, follow these steps:
    - Navigate to the backend directory of your project.
    - Create a virtual environment by running:
      ```bash
-     python -m venv venv
+     python3 -m venv venv
      ```
    - Activate the virtual environment:
      - On Windows, run:
@@ -54,6 +54,7 @@ To set up the application on your local machine, follow these steps:
      ```bash
      cd backend
      npm install
+     npm install react-markdown
      pip install -r requirements.txt
      ```
 
@@ -61,10 +62,10 @@ To set up the application on your local machine, follow these steps:
 
 To start the application, run the provided commands:
 
-1. Start the backend server:
+1. Start the backend server from the backend directory:
 
    ```bash
-   python3 backend/app.py
+   python3 app.py
    ```
 
 2. Navigate to the frontend directory and start the frontend server:
