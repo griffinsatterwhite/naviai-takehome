@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "openai": "^4.80.1",
+    "react-markdown": "^9.0.3"
+  }
+}
